@@ -1,7 +1,7 @@
 # Python Project: Find a file using a string 🐍
 
 Python Script <br>
-This repo contains python code that returns the path that contains the file with the string that you are searching for. <br>
+This repo contains python code that returns a file path that contains the file with your string. <br>
 Run the code.
 
 Python
