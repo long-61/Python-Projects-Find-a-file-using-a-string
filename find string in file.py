@@ -16,7 +16,7 @@ def getfiles(path):
         abs_path = os.path.abspath(file_name)
         if os.path.isdir(abs_path):
             getfiles(abs_path)
-        if os.path.isfile(abs_path):
+        elif os.path.isfile(abs_path):
             f = open(file_name, "r")
             if text in f.read():
                 f = 1
